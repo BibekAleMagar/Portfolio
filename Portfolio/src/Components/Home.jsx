@@ -23,13 +23,13 @@ const Home = () => {
     <div className='flex justify-center my-2 md:pt-16 pt-12' id="home">
     <p className='text-center md:text-2xl bg-[#004AAD] px-6 py-2 rounded-lg text-white font-serif'>Welcome to my portfolio</p> 
     </div>
-    <div className='md:px-56 px-4 flex flex-col-reverse md:flex-row md:gap-10 items-center py-5'>
+    <div className='md:px-30 px-4 flex flex-col-reverse md:flex-row md:gap-10 items-center py-5'>
       
         <div className='flex flex-col items-center md:items-start' data-aos='fade-right'>
         
-        <p className='text-4xl font-bold pt-4 md:text-7xl md:my-8 font-serif'>Hi, I'm Bibek</p>
-        <TypeAnimation sequence={['Frontend Developer',1000,'']} speed={50} repeat={Infinity} className='text-2xl font-bold md:text-5xl opacity-88 font-serif'/>
-        <p className='text-xl md:pt-5 pt-2 md:text-4xl md:mt-2 opacity-50 text-center md:text-start font-serif'>
+        <p className='text-4xl font-bold pt-4 md:text-4xl  md:my-4 font-serif'>Hi, I'm Bibek</p>
+        <TypeAnimation sequence={['Frontend Developer',1000,'']} speed={50} repeat={Infinity} className='text-2xl font-bold md:text-2xl opacity-88 font-serif'/>
+        <p className='text-xl md:pt-5 pt-2 md:text-2xl md:mt-1 opacity-50 text-center md:text-start font-serif'>
              I'm a frontend developer focused on crafting ideas into reality.
         </p>
         </div>

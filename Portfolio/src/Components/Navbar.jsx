@@ -5,6 +5,7 @@ import { IoClose } from "react-icons/io5";
 import Education from "./Education";
 
 
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
@@ -15,7 +16,7 @@ const Navbar = () => {
         <div>
           <a href="#home"><img src={Kendrix} alt="Logo" className="h-8 md:h-10 w-15 md:w-full" /></a>
         </div>
-        <div className="hidden md:flex">
+        <div className="hidden lg:flex">
           <ul className="md:flex gap-x-20 text-xl justify-end items-center">
             <li className="hover:underline underline-offset-3">
               <a href="#home">Home</a>
@@ -35,11 +36,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex md:justify-center">
-          <button className="bg-[#004AAD] md:p-2 p-1 rounded-xl md:rounded-4xl text-white text-nowrap">
+          <a className="bg-[#004AAD] md:p-2 p-1 rounded-xl md:rounded-4xl text-white text-nowrap"
+          href="" target="_blank">
             Download C.V
-          </button>
+          </a>
         </div>
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <HiViewList size={35} onClick={() => setToggle(true)} />
         </div>
       </div>
